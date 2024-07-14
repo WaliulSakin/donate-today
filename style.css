@@ -39,3 +39,78 @@ section {
     text-align: center;
     margin-top: 100px;
 }
+
+.amount {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.one {
+    background-color: #edede9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 2s;
+
+}
+
+.one:hover {
+    background-color: #FF5959;
+}
+
+.two {
+    margin-left: 100px;
+    background-color: #edede9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 2s;
+}
+
+.two:hover {
+    background-color: #FF5959;
+}
+
+.five {
+    margin-left: 100px;
+    background-color: #edede9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 2s;
+}
+
+.five:hover {
+    background-color: #FF5959;
+}
+
+.ten {
+    margin-left: 100px;
+    background-color: #edede9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 2s;
+}
+
+.ten:hover {
+    background-color: #FF5959;
+}
+
+.fifty {
+    margin-left: 100px;
+    background-color: #edede9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 2s;
+}
+
+.fifty:hover {
+    background-color: #FF5959;
+}
