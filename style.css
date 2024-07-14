@@ -1,0 +1,41 @@
+#header h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+#header p {
+    text-align: center;
+    color: aliceblue;
+}
+
+#header a {
+    margin-left: 48%;
+    margin-top: 10px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+#header {
+    background-image: url(images/donation6.jpg);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+section {
+    display: flex;
+}
+
+.donate-today {
+    text-align: center;
+    margin-top: 100px;
+}
