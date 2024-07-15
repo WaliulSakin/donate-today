@@ -13,7 +13,7 @@ body {
     color: aliceblue;
 }
 
-#header a {
+a {
     margin-left: 48%;
     margin-top: 10px;
     background-color: #FF5959;
@@ -23,6 +23,8 @@ body {
     padding-left: 5px;
     padding-right: 10px;
     font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #header {
@@ -51,12 +53,13 @@ section {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: 2s;
+    transition: 0.5s;
 
 }
 
 .one:hover {
-    background-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
 
 .two {
@@ -66,11 +69,12 @@ section {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .two:hover {
-    background-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
 
 .five {
@@ -80,11 +84,12 @@ section {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .five:hover {
-    background-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
 
 .ten {
@@ -94,11 +99,12 @@ section {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .ten:hover {
-    background-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
 
 .fifty {
@@ -108,9 +114,43 @@ section {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .fifty:hover {
-    background-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+    margin-left: 34%;
+    width: 500px;
+    padding-left: 300px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+#plan {
+    text-align: center;
+    margin-top: 130px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.part {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.food {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: #4F9DA6;
 }
