@@ -13,7 +13,7 @@ body {
     color: aliceblue;
 }
 
-a {
+.donate {
     margin-left: 48%;
     margin-top: 10px;
     background-color: #FF5959;
@@ -32,6 +32,7 @@ a {
     background-size: cover;
     padding-bottom: 200px;
 }
+
 
 section {
     display: flex;
@@ -151,6 +152,62 @@ input {
 }
 
 .food {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: #4F9DA6;
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 1100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 1100px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.education {
+    background-color: rgba(250, 238, 6, 0.266);
+    width: 1100px;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.part {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.contribute {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 200px;
+}
+
+.contribute img {
+    width: 800px;
+    height: 500px;
+}
+
+.help {
+    margin-right: 15%;
+}
+
+.contribute a {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
